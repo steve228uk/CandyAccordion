@@ -1,0 +1,83 @@
+.candyaccordion{
+	width: 100%;
+	list-style: none;
+}
+
+.candyaccordion li{
+	list-style: none;
+}
+
+.candyaccordion .candytitle{
+	background: #eee;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	font: lighter 1.1em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	cursor: pointer;
+}
+
+.candyaccordion .candytext{
+	background: #fafafa;
+	padding: 15px 10px;
+	border-bottom: 1px solid #ccc;
+	font: lighter 1em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+/* Blue */
+
+.candyaccordion.blue .candytitle{
+	background-color: #0f3f9d;
+	color: #fff;
+	border-color: #152269;
+}
+
+.candyaccordion.blue .candytext{
+	border-color: #152269;
+}
+
+/* Green */
+
+.candyaccordion.green .candytitle{
+	background-color: #209d0f;
+	color: #fff;
+	border-color: #286914;
+}
+
+.candyaccordion.green .candytext{
+	border-color: #286914;
+}
+
+/* Red */
+
+.candyaccordion.red .candytitle{
+	background-color: #9d0f0f;
+	color: #fff;
+	border-color: #691414;
+}
+
+.candyaccordion.red .candytext{
+	border-color: #691414;
+}
+
+/* Orange */
+
+.candyaccordion.orange .candytitle{
+	background-color: #e16c00;
+	color: #fff;
+	border-color: #ac4f00;
+}
+
+.candyaccordion.orange .candytext{
+	border-color: #ac4f00;
+}
+
+/* Pink */
+
+.candyaccordion.pink .candytitle{
+	background-color: #ff93fe;
+	color: #9800ac;
+	border-color: #9800ac;
+}
+
+.candyaccordion.pink .candytext{
+	border-color: #9800ac;
+}

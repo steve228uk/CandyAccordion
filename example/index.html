@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CandyAccordion</title>
+	<link rel="stylesheet" href="styles.css" type="text/css" />
+	<link rel="stylesheet" href="../jquery.candyaccordion.css" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="../jquery.candyaccordion.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			
+			// SIMPLE CALL FOR THE CANDY ACCORDION
+			
+			$('#accordion').candyaccordion();
+			
+			$('button').click(function() {
+				var classname = $(this).val();
+				
+				$('#accordion').attr('class', 'candyaccordion ' + classname);
+				
+			});
+			
+		});
+	</script>
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	
+	<div id="container">
+		
+		<h1>CandyAccordion</h1>
+		
+		<p>CandyAccordion is a simple, lightweight and easy to use accordion that uses the jQuery library</p>
+		
+		<h2>Change The Colour</h2>
+		
+		<ul id="changer">
+			<li><button value="blue">Blue</button></li>
+			<li><button value="green">Green</button></li>
+			<li><button value="red">Red</button></li>
+			<li><button value="orange">Orange</button></li>
+			<li><button value="pink">Pink</button></li>
+			<li><button value="">Grey</button></li>
+		</ul>
+		
+		<ul id="accordion" class="candyaccordion">
+			<li>
+				<div class="candytitle">Accordion Title</div>
+				<div class="candytext">Accordion text</div>
+			</li>
+			<li>
+				<div class="candytitle">Accordion Title</div>
+				<div class="candytext">Accordion text</div>
+			</li>
+			<li>
+				<div class="candytitle">Accordion Title</div>
+				<div class="candytext">Accordion text</div>
+			</li>
+			<li>
+				<div class="candytitle">Accordion Title</div>
+				<div class="candytext">Accordion text</div>
+			</li>
+			<li>
+				<div class="candytitle">Accordion Title</div>
+				<div class="candytext">Accordion text</div>
+			</li>
+		</ul>
+	
+	</div>
+</body>
+</html>
